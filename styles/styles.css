@@ -1,0 +1,54 @@
+/* general  style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Manrope";
+}
+ul{
+  list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+a:hover{
+    color: rgba(251, 175, 133, 1);
+}
+button{
+    
+    cursor: pointer;
+}
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.btn{
+    padding:15px 33px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 40px;
+
+
+}
+.btn_orange{
+    margin-top: 40px;
+    background-color: rgba(216, 125, 74, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight:700 ;
+    font-size:13px;
+    text-transform: uppercase;
+text-transform: uppercase;
+
+}
+.btn_orange:hover{
+    background-color: rgb(174, 156, 146); ;
+}
+/* headphone section */

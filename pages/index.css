@@ -1,0 +1,249 @@
+/* index htmlni  style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header  section  */
+header {
+  background-color: #141414;
+}
+.header_nav {
+  justify-content: space-between;
+  display: flex;
+  padding: 32px;
+  border-bottom: 2px solid rgb(140, 134, 134);
+  font-weight: 700;
+
+  svg {
+    width: 23px;
+  }
+}
+ul {
+  display: flex;
+  gap: 32px;
+  a {
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+}
+/* headphone _section */
+.headphone_section {
+  display: flex;
+  .headphone_text {
+    padding: 225px 0 165px;
+
+    h3 {
+      font-weight: 400;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 1);
+      opacity: 49%;
+      letter-spacing: 10px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-weight: 700;
+      font-size: 56px;
+      letter-spacing: 2px;
+      color: rgba(255, 255, 255, 1);
+      margin-bottom: 24px;
+    }
+    p {
+      font-weight: 500;
+      font-size: 15px;
+      color: rgba(255, 255, 255, 1);
+      opacity: 75%;
+      width: 349px;
+      line-height: 25px;
+    }
+  }
+}
+
+/* product type  section */
+.shop_options {
+  display: flex;
+  gap: 30px;
+  margin-top: 180px;
+
+  margin-bottom: 161px;
+
+  .headphones {
+    width: 350px;
+    background-color: rgba(241, 241, 241, 1);
+    border-radius: 8px;
+    padding: 0 108px 30px;
+
+
+    img {
+      margin-top: -80px;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 18px;
+      margin-top: 36px;
+      margin-bottom: 15px;
+      color: rgba(0, 0, 0, 1);
+
+      letter-spacing: 2px;
+    }
+  }
+}
+
+.headphone_shop {
+  display: flex;
+  gap: 33px;
+  align-items: center;
+
+  svg {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 15px;
+  color: rgb(128, 124, 124);
+  text-transform: uppercase;
+}
+
+h1:hover {
+  color: rgba(216, 125, 74, 1);
+}
+/* speaker section */
+.speaker {
+  border-radius: 8px;
+  background-color: rgba(216, 125, 74, 1);
+  margin-bottom: 29px;
+  display: flex;
+  .speaker_section {
+    padding: 133px 95px 124px 0;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 56px;
+    margin-bottom: 24px;
+    color: rgba(255, 255, 255, 1);
+  }
+  p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 75%;
+    margin-bottom: 40px;
+  }
+  img {
+    padding: 95px 138px 0 117px;
+  }
+  button {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+  }
+  button:hover {
+    background-color: white;
+    color: #141414;
+  }
+}
+/* ZX7 speaker */
+.zxt_speaker {
+  margin-bottom: 48px;
+  background-image: url(../images/Bitmap10.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+
+  padding: 110px 0 110px 95px;
+  h1 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 32px;
+    color: rgba(0, 0, 0, 1);
+  }
+}
+/* earphones */
+.yx7_earphones {
+  margin-bottom: 200px;
+  gap: 30px;
+  border-radius: 10px;
+  display: flex;
+  img {
+    border-radius: 10px;
+  }
+
+  .earphones_title {
+    padding: 101px 198px 101px 95px;
+    width: 540px;
+    background-color: rgba(241, 241, 241, 1);
+    border-radius: 10px;
+    h1 {
+      font-weight: 700;
+      font-size: 28px;
+      letter-spacing: 2px;
+      color: rgba(0, 0, 0, 1);
+      margin-bottom: 32;
+      width: 300px;
+    }
+  }
+}
+/* best quality section */
+.quality {
+  display: flex;
+  align-items: center;
+  margin-bottom: 200px;
+  gap: 125px;
+  h1 {
+    width: 445px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 32px;
+    span {
+      color: rgba(216, 125, 74, 1);
+    }
+  }
+  p {
+    width: 445px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 1);
+    opacity: 50%;
+  }
+}
+/* footer section is here */
+footer {
+  background-color: black;
+  color: white;
+  .footer_title {
+    padding-top: 75px;
+  }
+}
+.footer_nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+ul {
+  gap: 34px;
+}
+p {
+  width: 540px;
+  margin-bottom: 56px;
+  font-weight: 400;
+  font-size: 15px;
+  opacity: 50%;
+}
+
+.footer_links {
+  display:flex 
+  .footernav_link {
+    svg{width:16px;
+    }
+  }
+}
